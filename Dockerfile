@@ -1,5 +1,5 @@
-FROM lsiobase/alpine:3.6
-MAINTAINER Gonzalo Peci <davyjones@linuxserver.io>, sparklyballs
+FROM arm32v6/alpine:3.6
+MAINTAINER Gonzalo Peci <davyjones@linuxserver.io>, sparklyballs, rfelix0
 
 # environment variables
 ENV PYTHON_EGG_CACHE="/config/plugins/.python-eggs"
@@ -56,3 +56,5 @@ COPY root/ /
 # ports and volumes
 EXPOSE 8112 58846 58946 58946/udp
 VOLUME /config /downloads
+
+CMD deluged -c /config && deluge-web -c /config

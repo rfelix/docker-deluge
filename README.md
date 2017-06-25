@@ -5,12 +5,7 @@
 [appurl]: http://deluge-torrent.org/
 [hub]: https://hub.docker.com/r/linuxserver/deluge/
 
-[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
-
-The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. Find us for support at:
-* [forum.linuxserver.io][forumurl]
-* [IRC][ircurl] on freenode at `#linuxserver.io`
-* [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
+This is a fork for the RaspberryPi based on [LinuxServer.io][linuxserverurl].
 
 # linuxserver/deluge
 [![](https://images.microbadger.com/badges/version/linuxserver/deluge.svg)](https://microbadger.com/images/linuxserver/deluge "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/linuxserver/deluge.svg)](http://microbadger.com/images/linuxserver/deluge "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/deluge.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/deluge.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io/linuxserver-deluge)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io/job/linuxserver-deluge/)
